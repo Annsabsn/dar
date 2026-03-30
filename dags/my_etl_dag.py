@@ -13,7 +13,7 @@ default_args = {
     'retry_delay': timedelta(minutes=1)
 }
 
-# 🔹 Email function 
+# 🔹 Email function mac
 def send_failure_email(context):
     task_instance = context.get('task_instance')
     task_id = task_instance.task_id
